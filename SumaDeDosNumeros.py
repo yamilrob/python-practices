@@ -1,4 +1,4 @@
-suma de dos números. 
+
 
 num1= float(input ("Introduzca un número: "))
 num2= float(input ("Introduzca un número: "))
