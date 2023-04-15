@@ -1,4 +1,4 @@
-Lista entrelazad
+#Lista entrelazad
 
 Amigos = ["Ana", "Juan", "Pedro"]
 for amigo in Amigos:

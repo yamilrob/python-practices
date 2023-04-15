@@ -7,8 +7,6 @@ DiaSemana = diaMes + ((13*mes - 1)/5) + año_siglo + (año_siglo/4) + (siglo/4) 
 
 DiaSemana_1 = int(DiaSemana / 6) 
 
-# print(DiaSemana_1)
-
 numeros= [1,2,3,4,5,6,7]
 dias= ["DOMINGO","LUNES","MARTES","MIÉRCOLES","JUEVES","VIERNES","SÁBADO"]
 
