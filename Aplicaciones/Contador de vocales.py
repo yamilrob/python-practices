@@ -1,4 +1,4 @@
-Contador de vocales
+#Contador de vocales
 
 entrada=input("Ingrese una frase: ")
 entrada_str= str(entrada)

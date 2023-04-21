@@ -1,4 +1,4 @@
-Generador de contraseñas
+#Generador de contraseñas
 
 import random
 import string 

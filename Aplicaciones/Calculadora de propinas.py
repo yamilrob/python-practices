@@ -1,4 +1,4 @@
-Calculadora de propinas
+#Calculadora de propinas
 
 porce1= 0.2 
 porce2= 0.15 

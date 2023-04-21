@@ -1,4 +1,3 @@
-
 #Comprueba si es mayor que 10
 #Escribir un programa que pida al usuario un número y compruebe si es mayor que 10.
 
