@@ -1,1 +1,1 @@
-Ejercios, prácticas y pruebas de Python 
+Ejercicios, prácticas y pruebas de Python 
