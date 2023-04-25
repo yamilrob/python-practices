@@ -1,11 +1,31 @@
-mensaje = """Bienvenidos a la Calculadora =)
-Operaciones permitidad son: sum, resta, mult, div.
+"""System module."""
+
+MENSAJE = """Bienvenidos a la Calculadora =)
+Operaciones permitidad son: suma, resta, multiplicación, división.
 Para salir escriba Salir."""
-print(mensaje)
+print(MENSAJE)
 
+ACUMULADOR = float(input("Ingrese número: "))
+operacion = input("Ingrese la opración que quiere realizar: ")
 
-num = input("Ingrese número: ")
-opera = input("Ingrese la opración que quire realizar: ")
-num2 = input("Ingrese otro número: ")
-
-print(num, opera, num2)
+while operacion != "Salir":
+    if operacion == "suma":
+        dato = float(input("Ingrese otro número: "))
+        ACUMULADOR = ACUMULADOR + dato
+        print(round(ACUMULADOR))
+        operacion = input("Ingrese la opración que quiere realizar: ")
+    elif operacion == "resta":
+        dato = float(input("Ingrese otro número: "))
+        ACUMULADOR = ACUMULADOR - dato
+        print(round(ACUMULADOR))
+        operacion = input("Ingrese la opración que quiere realizar: ")
+    elif operacion == "multi":
+        dato = float(input("Ingrese otro número: "))
+        ACUMULADOR = ACUMULADOR * dato
+        print(round(ACUMULADOR))
+        operacion = input("Ingrese la opración que quiere realizar: ")
+    elif operacion == "div":
+        dato = float(input("Ingrese otro número: "))
+        ACUMULADOR = ACUMULADOR / dato
+        print(round(ACUMULADOR, 1))
+        operacion = input("Ingrese la opración que quiere realizar: ")
